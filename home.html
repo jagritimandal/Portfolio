@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio with Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!---------------------------------------- Header Area---------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" style="font-family:cursive;color:yellowgreen;" href="#">jagriti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>              
+            <div class="collapse navbar-collapse" id="navbarNav"style="font-family:cursive;">
+                <ul class="navbar-nav d-flex justify-content-center w-100">
+                    <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>   
+                    <li class="nav-item"><a class="nav-link" href="#Skills">skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button type="button" class="btn btn-outline-secondary ms-lg-3 mt-3 mt-lg-0"
+                    style="font-size:18px; padding: 10px 20px; border-radius: 20px;"
+                    onclick="navigateToContact()">
+                    Hire Me >>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--Sections-->
+    <!---------------------------------------- Home page Area---------------------------------------------->
+   <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container text-center">
+            <h1>Hi!<br> I'm <strong>Jagriti Mandal</strong></h1>    
+            <p>
+                👋 Welcome to My Portfolio Website!<br>
+                🌟 AI/ML Enthusiast | Software Developer | Data Science Explorer<br>
+                💡 Passionate about building intelligent, data-driven solutions and solving complex problems with precision.<br>
+                🔁 Learn, ⚙️ Build, and 🚀 Innovate continually.
+            </p>
+                
+            <div class="button-group mt-5">
+                <a href="full Stack.pdf" class="btn btn-primary btn-sm btn-narrow mx-2" style="width: 120px;" download>Download Resume</a>
+                <a class="btn btn-outline-light btn-sm btn-narrow mx-2" onclick="navigateToPortfolio()">Portfolio</a>
+            </div>
+            <div class="social-media mt-4">
+                <!-- Optional: Add icons here -->
+                <a href="https://www.linkedin.com/in/jagriti-mandal-2b8a6a284/" target="_blank"><i class="fab fa-github fa-x mx-2"></i></a>
+                <a href="https://github.com/jagritimandal" target="_blank"><i class="fab fa-linkedin fa-x mx-2"></i></a>
+                <!-- Add more if needed -->
+            </div>
+        </div>
+    </section>
+  
+    <!---------------------------------------- About Me Area---------------------------------------------->
+    <section id="About" class="section bg-dark text-light py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <!-- Text Content -->
+          <div class="col-md-6 text-start mt-3">
+            <h2 class="text-center text-md-start">About Me</h2>
+            <p>
+              Data Science graduate with skills in Python, Machine Learning, and Software Development. <br>
+              I love solving real-world problems using data and building smart, efficient solutions. <br>
+              Open to full-time opportunities in tech.
+            </p>
+            <ul>
+              <li>Pandas, NumPy, Matplotlib</li>
+              <li>ML: Regression, Classification, Clustering, NLP</li>
+              <li>Web Design, UI/UX Design</li>
+              <li>MySQL, PostgreSQL, MongoDB</li>
+            </ul>
+            <ul>
+              <li>Machine Learning</li>
+              <li>Web Development</li>
+              <li>Computer Vision</li>
+              <li>AI in real-life applications</li>
+            </ul>
+            <p class="mt-4">
+              💡 <strong>Fun Fact:</strong> Built a website to show off my ML models... then spent 3 hours styling one button 🎨
+            </p>
+          </div>
+    
+          <!-- Image -->
+          <div class="col-md-6 text-center mt-4 mt-md-0">
+            <img src="/src/images/demo.png" alt="Profile" 
+                 class="img-fluid" 
+                 style="width: 80%; max-width: 400px; height: auto; border-radius: 50% / 60%; object-fit: cover;">
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <!---------------------------------------- Education  Area---------------------------------------------->
+    <section id="Education" class="section py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Education</h2>
+          
+          <div class="row justify-content-center">
+            
+            <!-- B.Tech Card -->
+            <div class="col-md-5 mb-4">
+              <div class="card shadow-sm h-100" style="background-color: bisque;">
+                <div class="card-body">
+                  <h5 class="card-title">Bachelor of Technology</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Future Institute of Engineering and Management<br>(2020 - 2024)
+                  </h6>
+                  <p class="card-text">
+                    Specialization in Data Science<br>
+                    <strong>CGPA:</strong> 8.75
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Schooling Card -->
+            <div class="col-md-5 mb-4">
+              <div class="card shadow-sm h-100" style="background-color: bisque;">
+                <div class="card-body">
+                  <h5 class="card-title">Schooling</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Pakuahat Ananda Niketan Mahabir High School<br>(2012 - 2020)
+                  </h6>
+                  <p class="card-text">
+                    10th: 66.86% (WBBSE)<br>
+                    12th: 74% (WBCHSE)
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+    <!---------------------------------------- Skills Area-------------------------------------------------->
+    <section id="Skills" class="section py-5">
+        <div class="container text-center">
+          <h2 class="mb-4">Skills</h2>
+          
+          <h4 class="mb-3">Languages and Tools</h4>
+          
+          <ul class="list-inline">
+            <!-- Example Skill Icon -->
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60">
+              <p class="mt-2">HTML5</p>
+            </li>
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60">
+              <p class="mt-2">CSS3</p>
+            </li>
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60">
+              <p class="mt-2">JavaScript</p>
+            </li>
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="60" height="60">
+              <p class="mt-2">Java</p>
+            </li>
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" width="60" height="60">
+              <p class="mt-2">Spring</p>
+            </li>
+            <li class="list-inline-item mx-3 mb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="60" height="60">
+              <p class="mt-2">MySQL</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+    <!---------------------------------------- Projects Area------------------------------------------------->
+    <!-- Projects Section -->
+    <section id="Projects" class="section py-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center mb-5" style="margin-top: 70px;">Projects</h2>
+
+        <div class="row justify-content-center">
+
+          <!-- Project 1 -->
+          <div class="col-md-4 col-lg-4 mb-4 mt-5">
+            <div class="card h-100 shadow-sm">
+              <img src="/src/images/project1.png" class="card-img-top" alt="Project 1 Screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Calculator App</h5>
+                <p class="card-text">Responsive calculator using HTML, CSS, JS for clean basic operations.</p>
+                <a href="https://replit.com/@jagritimandalfi/calculator-using-HTMLCSSJS" class="btn btn-outline-primary btn-sm" target="_blank">View on Replit</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-4 col-lg-4 mb-4 mt-5">
+            <div class="card h-100 shadow-sm">
+              <img src="/src/images/project2.jpg" class="card-img-top" alt="Project 2 Screenshot">
+              <div class="card-body">
+                <h5 class="card-title">E-commerce Backend</h5>
+                <p class="card-text">Scalable backend with Spring Boot, REST APIs & MySQL. Includes login, cart & admin.</p>
+                <a href="https://github.com/yourusername/ecommerce-backend" class="btn btn-outline-primary btn-sm" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-4 col-lg-4 mb-4 mt-5">
+            <div class="card h-100 shadow-sm">
+              <img src="/src/images/project3.png" class="card-img-top" alt="Project 3 Screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Website</h5>
+                <p class="card-text">This portfolio — made with HTML, CSS, JS & Bootstrap to showcase my work!</p>
+                <a href="https://github.com/yourusername/portfolio" class="btn btn-outline-primary btn-sm" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!--------------------------------------contact------------------------------------------------------------------------>
+    <!-- Contact Section -->
+    <section id="contact" class="section py-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <p class="text-center mb-5">Get in touch — I'd love to hear from you!</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form action="mailto:jagritimandal484@gmail.com" method="post" enctype="text/plain">
+              <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-light w-100">Send Message</button>
+            </form>
+            <span id="msg" class="d-block text-center mt-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------- Footer --------------------------------------------------->
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <!------------------------------ About Section ---------------------------------------------->
+                <div class="col-md-4">
+                    <h5>About Me</h5>
+                    <p>I am a web developer passionate about creating interactive websites. Check out my latest projects!</p>
+                </div>
+            <!----------------------------- Quick Links ----------------------------------------------->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#intro" class="text-white text-decoration-none">Introduction</a></li>
+                    <li><a href="#profile" class="text-white text-decoration-none">Profile</a></li>
+                    <li><a href="#experience" class="text-white text-decoration-none">Experience</a></li>
+                    <li><a href="#skills" class="text-white text-decoration-none">Skills</a></li>
+                    <li><a href="#projects" class="text-white text-decoration-none">Projects</a></li>
+                    <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <!------------------------------- Social Media ------------------------------------------>
+            <div class="col-md-4">
+                <h5>Follow Me</h5>
+                <!--<a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>-->
+                <a href="https://www.linkedin.com/in/jagriti-mandal-2b8a6a284/" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/jagritimandal" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+
+        </div>
+        <hr class="bg-dark">
+        <!----------------------------------------Copyright Area---------------------------------------->
+        <div class="text-center pb-3">
+            <small class="massage">Thanks for visiting and happy coding!</small>
+            <small class="mb-0 copyright">&copy; 2025 | All Rights Reserved</small>
+        </div>
+    </div>
+</footer>
+
+<!----------------------------------------------- FontAwesome Icons ------------------------------------>
+<script src="https://kit.fontawesome.com/13fb89a0d6.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="home.js"></script>
+
+</body>
+</html>
