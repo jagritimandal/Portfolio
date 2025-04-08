@@ -127,10 +127,9 @@ h1{
 #home {top:40%;left:auto; background-color: #101522; /* custom blue */color: #ffffff;}
 #About {top:40%;left:auto;}
 #Education{top:40%;left:auto;background-color: #101522; /* custom blue */color: #ffffff;}
-#Achivements {top:40%;left:auto;}
-#Skills {top:40%;left:auto;background-color: #101522; /* custom blue */color: #ffffff;}
-#projects {top:40%;left:auto;}
-#contact {top:40%;left:auto;margin-top:0;background-color:  #101522; /* custom blue */color: #ffffff;}
+#Skills {top:40%;left:auto;}
+#projects {top:40%;left:auto;background-color: #101522; /* custom blue */color: #ffffff;}
+#contact {top:40%;left:auto;margin-top:0;}
 
 /*-----------contact form---------*/
 form input,
