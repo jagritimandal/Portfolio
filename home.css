@@ -148,6 +148,8 @@ h1{
     color: white;
     text-align: center;
     border: none !important;
+    flex-wrap: wrap;
+
 }
 
 /* -------- Different colors for identification------*/
