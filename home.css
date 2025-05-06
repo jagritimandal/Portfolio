@@ -111,6 +111,13 @@ h1{
 .card {
     border: none;
   }
+/*----------------style container---------------*/
+.container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
 /* ----------Style sections-------- */
 .section {
     height: 100vh; /* Each section is full screen */
