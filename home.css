@@ -117,7 +117,27 @@ h1{
     padding: 10px;
     box-sizing: border-box;
   }
+/*Add Media Queries for Small Screens*/
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
   
+    .project-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+   
 /* ----------Style sections-------- */
 .section {
     height: 100vh; /* Each section is full screen */
